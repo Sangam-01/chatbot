@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+    <header>
+        <nav>
+            <a href="#home">घर</a> |
+            <a href="#menu">मेन्यू</a> |
+            <a href="#location">जगह</a> |
+            <a href="#aboutus">हमारे बारे में</a> |
+            <a href="#contactus">संपर्क करें</a>
+        </nav>
+    </header>
+
+    <section id="home"> 
+		<img src="banner.jpg" >
+        <!-- Add images here -->
+    </section>
+
+    <section id="menu">
+        <h2>हमारा मेनू</h2>
+        <div class="grid-container">
+        <img src="menu1.jpg" alt="Menu item 1">
+        <img src="menu2.jpg" alt="Menu item 2">
+        <img src="menu3.jpg" alt="Menu item 3">
+    </div>
+    </section>
+
+    <section id="location">
+        <h2>जगह</h2>
+        <p>38 पतली गली, मुंबई</p>
+        <!-- Add map widget here -->
+    </section>
+
+    <section id="contactus">
+        <h2>संपर्क करें</h2>
+        <p>प्रश्न मिले? एक ऑर्डर देना चाहते हैं? हमें +91791234567 पर कॉल करें या हमें info@atliqfastfood.com पर ईमेल करें</p>
+    </section>
+
+	
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      chat-icon="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;pw&#x2F;AP1GczMjgwwdgWBXcs3lfYQAmEpweuXQxru4GLc9jjEjlWKZ8zpXC3elML566cKGxiRx0Ms6WbNPUvEDC3mvWsxiTcNo1ut4104b9ldck7LgR0FWX9iwSQbj=w2400Foo"
+      intent="WELCOME"
+      chat-title="Hindi"
+      agent-id="56017990-9231-468b-8187-efe29fba7327"
+      language-code="hi"
+    ></df-messenger>
+</body>
+</html>
